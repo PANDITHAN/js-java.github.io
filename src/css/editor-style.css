@@ -1,0 +1,30 @@
+body{
+    background-color: #3B3B3B;
+}
+
+.navbar{
+    background-color: #6A5667;
+}
+
+.editor{
+    background-color: #3B3B3B;
+    width: 60vw;
+    height: 90vh;
+}
+
+.buttons{
+    top: 10%;
+}
+
+.btn{
+    color: #ffffff;
+}
+.btn:hover{
+    color: #f6abab;
+}
+
+.output{
+    background-color: #616C73;
+    width: 40vw;
+    height: 90vh;
+}
