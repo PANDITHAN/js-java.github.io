@@ -88,3 +88,21 @@ ul>li>pre{
 .log--function {
     color: rgb(255, 208, 0);
 }
+
+/* media query */
+
+@media(max-width: 992px ) {
+    #editorCode{
+        width: 100vw;
+        height: 60vh;
+    }
+    .editor{
+        width: 100vw;
+        height: 60vh;
+    }
+    .output{
+        width: 100vw;
+        height: 40vh;
+        margin-top: 2.5rem;
+    }
+}
