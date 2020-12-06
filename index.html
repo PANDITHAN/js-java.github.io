@@ -49,8 +49,11 @@
     <div class="d-flex justify-content-between">
       <div class="editor">
         <div class="buttons d-flex flex-row-reverse mr-5">
-          <div class="btn">Clear <i class="fas fa-trash-restore-alt"></i></div>
-          <div class="btn">Run <i class="fas fa-play"></i></div>
+          <div class="btn clear_code">Clear <i class="fas fa-trash-restore-alt"></i></div>
+          <div class="btn run_code">Run <i class="fas fa-play"></i></div>
+        </div>
+        <div id="editorCode">
+          mm
         </div>
       </div>
       <div class="output">vv</div>
@@ -67,10 +70,12 @@
       crossorigin="anonymous"
     ></script>
     <!--Require ACE Libraries-->
-    <script src="./src/js/src-min/ace.js"></script>
-    <script src="./src/js/src-min/mode-javascript.js"></script>
+    <script src="src/js/src-min/ace.js"></script>
+    <script src="src/js/src-min/mode-javascript.js"></script>
+    <script src="src/js/src-min/ext-language_tools.js"></script>
 
     <!--Custom script-->
-    <script src="./src/js/editor.js"></script>
+    <script src="src/js/editor.js"></script>
+
   </body>
 </html>

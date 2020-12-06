@@ -2,6 +2,11 @@ body{
     background-color: #3B3B3B;
 }
 
+#editorCode{
+    width: 60vw;
+    height: 84vh;
+}
+
 .navbar{
     background-color: #6A5667;
 }
